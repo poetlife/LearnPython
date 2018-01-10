@@ -35,4 +35,4 @@ Something __important__ for this basic example:
 1. A test case is creadted by subclassing `unittest.TestCase`.
 2. All the individual tests are defined with methods whose name start with the letters _**test**_.
 3. `assert` statement is not used because the test runner wants accumulates the results and produce a report.
-4. 
+4. The `setUp()` and `tearDown()` methods allow you to define instructions that will be executed before and after __each test method__.
