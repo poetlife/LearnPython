@@ -6,4 +6,6 @@ A test fixture represents the _preparation_ needed to perform one or more tests,
 2. __test case__
 A test case is the _individual_ unit of testing. It checks for a specific response to a particular set of inputs. `unittest` module provides with a base class: `TestCase` which will be used to create new test cases.
 3. __test suite__
+A test suite is the _collection_ of test cases, test suites, or both. It is used to _aggregate tests should be executed together_.
+4. __test runner__
 
