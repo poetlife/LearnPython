@@ -9,3 +9,4 @@ A test case is the _individual_ unit of testing. It checks for a specific respon
 A test suite is the _collection_ of test cases, test suites, or both. It is used to _aggregate tests should be executed together_.
 4. __test runner__
 A test runner is the component which _orchestrates the execution of tests and provides the outcome to the user_. The runner may use a graphical interface, a textual interface, or return a special value to indicate the results of executing the tests.
+## Basic example
