@@ -45,5 +45,9 @@ Python unittest -m test_module.TestClass
 Python unittest -m test_module.TestClass.test_method
 ```
 ### Command-Line Options
-1. 
+1. `-b --buffer`
+The standard output and standard error stream are buffered during the test run. _Output during a passing test is **discarded**_. Output is echoed normaly on test fail or error and is added on the failure message.
+2. `-c --catch`
+3. `-f -failfast`
+4. `--locals`
 [last link](https://docs.python.org/3/library/unittest.html#command-line-interface)
