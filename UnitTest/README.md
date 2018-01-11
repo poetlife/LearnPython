@@ -48,6 +48,10 @@ Python unittest -m test_module.TestClass.test_method
 1. `-b --buffer`
 The standard output and standard error stream are buffered during the test run. _Output during a passing test is **discarded**_. Output is echoed normaly on test fail or error and is added on the failure message.
 2. `-c --catch`
+`Control-C` during the test run waits for the current test to end and then reports all the results so far. A second `Control-C` rasies the normal `KeyBoardInterrupt` exception.
 3. `-f -failfast`
+Stop the test run on the firsr error or failure.
 4. `--locals`
-[last link](https://docs.python.org/3/library/unittest.html#command-line-interface)
+Show all the local variables in tracebacks.
+## Test Discovery
+[last link](https://docs.python.org/3/library/unittest.html#test-discovery)
