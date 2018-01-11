@@ -38,4 +38,12 @@ Something __important__ for this basic example:
 4. The `setUp()` and `tearDown()` methods allow you to define instructions that will be executed before and after __each test method__.
 
 ## Command-Line Interface
+The unittest module can be used from the command line to run tests from _modules, classes or even individual test methods_.
+```
+Python unittest -m test_module1 test_module2
+Python unittest -m test_module.TestClass
+Python unittest -m test_module.TestClass.test_method
+```
+### Command-Line Options
+1. 
 [last link](https://docs.python.org/3/library/unittest.html#command-line-interface)
