@@ -54,4 +54,14 @@ Stop the test run on the firsr error or failure.
 4. `--locals`
 Show all the local variables in tracebacks.
 ## Test Discovery
-[last link](https://docs.python.org/3/library/unittest.html#test-discovery)
+Simply, __Test Discovery__ is a method to test all the test cases within the module or path.
+
+## Organizing test code
+
+## Re-using old test code
+
+## Skipping tests and expected failures
+
+## Distinguishing with iterations using subtests
+
+[related link](https://docs.python.org/3/library/unittest.html)
