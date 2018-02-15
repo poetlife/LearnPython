@@ -9,5 +9,6 @@ network segment|网段|一般指一个计算机网络中使用同一物理层设
 ## tutorial
 ### [Stacking Layers](http://scapy.readthedocs.io/en/latest/usage.html#stacking-layers)
 The `/` operator has been used as a composition operator between two layers. When doing so, the lower layer can **have one or more of its defaults fields overloaded according to the upper layer**. (You still can give the value you want). A string can be used as a raw layer.
+![figure](http://scapy.readthedocs.io/en/latest/_images/fieldsmanagement.png)  
 
 
