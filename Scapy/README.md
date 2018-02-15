@@ -7,6 +7,7 @@ English | 中文 | 含义
 ----|----|----
 TTL | 生存时间值（time to live）|该字段指定IP包被路由器丢弃之前允许通过的最大网段数量
 network segment|网段|一般指一个计算机网络中使用同一物理层设备（传输介质，中继器，集线器等）能够直接通讯的那一部分
+EtherNet|以太网|以太网(Ethernet)指的是由Xerox公司创建并由Xerox、Intel和DEC公司联合开发的基带局域网规范，是当今现有局域网采用的最通用的通信协议标准。
 
 ## tutorial
 ### [Stacking Layers](http://scapy.readthedocs.io/en/latest/usage.html#stacking-layers)
