@@ -10,6 +10,7 @@ network segment|网段|一般指一个计算机网络中使用同一物理层设
 EtherNet|以太网|以太网(Ethernet)指的是由Xerox公司创建并由Xerox、Intel和DEC公司联合开发的基带局域网规范，是当今现有局域网采用的最通用的通信协议标准。
 ICMP | Internet Control Message Protocol |它是TCP/IP协议族的一个子协议，用于在IP主机、路由器之间传递控制消息。控制消息是指网络通不通、主机是否可达、路由是否可用等网络本身的消息。
 SYN| Synchronous|SYN（synchronous）是TCP/IP建立连接时使用的握手信号。在客户机和服务器之间建立正常的TCP网络连接时，客户机首先发出一个SYN消息，服务器使用SYN+ACK应答表示接收到了这个消息，最后客户机再以ACK消息响应。
+gateway| 网关|网关(Gateway)又称网间连接器、协议转换器。网关在网络层以上实现网络互连，是最复杂的网络互连设备，仅用于两个高层协议不同的网络互连。
 
 ## tutorial
 ### [Stacking Layers](http://scapy.readthedocs.io/en/latest/usage.html#stacking-layers)
