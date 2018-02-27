@@ -13,6 +13,7 @@ SYN| Synchronous|SYN（synchronous）是TCP/IP建立连接时使用的握手信�
 gateway| 网关|网关(Gateway)又称网间连接器、协议转换器。网关在网络层以上实现网络互连，是最复杂的网络互连设备，仅用于两个高层协议不同的网络互连。
 MAC|Media Access Control介质访问控制层|它定义了数据帧怎样在介质上进行传输。在共享同一个带宽的链路中，对连接介质的访问是“先来先服务”的。
 ARP| Address Resolution Protocol地址解析协议|主机发送信息时将包含目标IP地址的ARP请求广播到网络上的所有主机，并接收返回消息，以此确定目标的物理地址；收到返回消息后将该IP地址和物理地址存入本机ARP缓存中并保留一定时间，下次请求时直接查询ARP缓存以节约资源。
+TLS |Transport Layer Security安全层传输协议|安全传输层协议（TLS）用于在两个通信应用程序之间提供保密性和数据完整性。该协议由两层组成： TLS 记录协议（TLS Record）和 TLS 握手协议（TLS Handshake）。较低的层为 TLS 记录协议，位于某个可靠的传输协议（例如 TCP）上面，与具体的应用无关，所以，一般把TLS协议归为传输层安全协议。 
 
 ## tutorial
 ### [Stacking Layers](http://scapy.readthedocs.io/en/latest/usage.html#stacking-layers)
