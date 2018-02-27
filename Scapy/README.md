@@ -11,6 +11,8 @@ EtherNet|以太网|以太网(Ethernet)指的是由Xerox公司创建并由Xerox�
 ICMP | Internet Control Message Protocol |它是TCP/IP协议族的一个子协议，用于在IP主机、路由器之间传递控制消息。控制消息是指网络通不通、主机是否可达、路由是否可用等网络本身的消息。
 SYN| Synchronous|SYN（synchronous）是TCP/IP建立连接时使用的握手信号。在客户机和服务器之间建立正常的TCP网络连接时，客户机首先发出一个SYN消息，服务器使用SYN+ACK应答表示接收到了这个消息，最后客户机再以ACK消息响应。
 gateway| 网关|网关(Gateway)又称网间连接器、协议转换器。网关在网络层以上实现网络互连，是最复杂的网络互连设备，仅用于两个高层协议不同的网络互连。
+MAC|Media Access Control介质访问控制层|它定义了数据帧怎样在介质上进行传输。在共享同一个带宽的链路中，对连接介质的访问是“先来先服务”的。
+ARP| Address Resolution Protocol地址解析协议|主机发送信息时将包含目标IP地址的ARP请求广播到网络上的所有主机，并接收返回消息，以此确定目标的物理地址；收到返回消息后将该IP地址和物理地址存入本机ARP缓存中并保留一定时间，下次请求时直接查询ARP缓存以节约资源。
 
 ## tutorial
 ### [Stacking Layers](http://scapy.readthedocs.io/en/latest/usage.html#stacking-layers)
